@@ -31,7 +31,7 @@ pipeline {
                 sh '''
                     docker run -d \
                       --name my-website \
-                      -p 80:80 \
+                      -p 8081:80 \
                       my-website:latest
                 '''
             }
